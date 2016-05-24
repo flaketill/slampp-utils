@@ -1,0 +1,9 @@
+### Documentation
+# This is a Vagrantfile for slampp development
+##
+
+Vagrant.configure("2") do |config|
+ 
+  config.vm.provision "docker"
+ 
+end
